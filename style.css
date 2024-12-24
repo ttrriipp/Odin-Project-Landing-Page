@@ -35,6 +35,7 @@ a {
 .first-section {
     background-color: #1F2937;
     display: flex;
+    justify-content: space-around;
 }
 
 .hero.main{
@@ -46,4 +47,9 @@ a {
 .hero.secondary {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+img {
+    height: 120px;
+    width: 120px;
 }
