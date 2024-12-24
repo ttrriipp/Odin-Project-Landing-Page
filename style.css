@@ -8,9 +8,10 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+    padding: 0px 200px;
 }
 
 .logo {
@@ -35,21 +36,49 @@ a {
 .first-section {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 400px;
+    align-items: center;
+    gap: 16px;
+    padding: 0px 200px;
+    flex-wrap: wrap;
 }
 
 .hero.main{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 8px;
+    width: 350px;
+
 }
 
 .hero.secondary {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 12px;
+    width: 450px;
+    
 }
 
 img {
-    height: 120px;
-    width: 120px;
+    height: 300px;
+    width: 500px;
 }
+
+.top-button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 4px;
+    border: #3882F6;
+    width: 100px;
+    height: 32px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
