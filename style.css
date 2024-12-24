@@ -5,6 +5,8 @@ body {
     flex-direction: column;
     font-family: 'Roboto';
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
